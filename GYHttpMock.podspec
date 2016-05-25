@@ -10,21 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source_files = '**/*.{h,m}'
-  s.public_header_files = [
-    'GYHttpMock.h',
-    'GYMockRequest.h',
-    'GYMatcher.h',
-    'GYNSURLProtocol.h',
-    'Categories/NSString+mock.h',
-    'Categories/NSURLRequest+GYURLRequestProtocol.h',
-    'Hooks/GYHttpClientHook.h',
-    'Hooks/GYURLHook.h',
-    'Hooks/GYNSURLSessionHook.h',
-    'Request/GYSubRequest.h',
-    'Request/GYMockRequestDSL.h',
-    'Response/GYMockResponse.h',
-    'Response/GYMockResponseDSL.h',
-  ]
+  s.public_header_files ='**/*.h'
   s.frameworks = 'Foundation','CFNetwork'
 
 end
