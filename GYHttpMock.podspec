@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = '**/*.{h,m}'
   s.public_header_files = [
     'GYHttpMock.h',
-    'GYMockRequest.h',
+    'Request/GYMockRequest.h',
     'GYMatcher.h',
     'GYNSURLProtocol.h',
     'Categories/NSString+mock.h',
